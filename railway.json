@@ -2,11 +2,11 @@
   "$schema": "https://railway.app",
   "build": {
     "builder": "NIXPACKS",
+    "providers": ["node"],
     "buildCommand": "npm install --legacy-peer-deps && npm run build"
   },
   "deploy": {
-    "startCommand": "npm start",
-    "restartPolicyOnFailure": "ON_FAILURE",
-    "maxRetries": 10
+    "startCommand": "node dist_server/server.js",
+    "restartPolicyOnFailure": "ON_FAILURE"
   }
 }
