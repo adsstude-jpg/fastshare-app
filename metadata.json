@@ -1,0 +1,8 @@
+{
+  "name": "FastShare - Seamless Cross-Device File Sharing & Messaging",
+  "description": "Fast cross-platform file sharing and instant messaging between smartphones and computers over local Wi-Fi or secure 6-digit room codes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
