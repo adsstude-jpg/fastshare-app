@@ -10,7 +10,6 @@
     "clean": "rm -rf dist dist_server",
     "lint": "tsc --noEmit"
   },
-
   "dependencies": {
     "@google/genai": "^2.4.0",
     "@tailwindcss/vite": "^4.3.3",
@@ -37,9 +36,8 @@
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",
     "typescript": "^7.0.2"
-  }
-},
+  },
   "engines": {
     "node": ">=24.0.0"
   }
-
+}
